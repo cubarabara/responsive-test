@@ -29,9 +29,9 @@ function loadPage($frame, url) {
     $('iframe').not($frame).attr('src', url);
 }
 
-$('.frame').each(function () {
+/*$('.frame').each(function () {
     showLoader($(this).attr('id'))
-});
+});*/
 
 
 //when document loads
