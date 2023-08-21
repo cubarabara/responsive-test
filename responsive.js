@@ -37,7 +37,7 @@ $('.frame').each(function () {
 //when document loads
 $(document).ready(function () {
 
-    loadPage('', defaultURL);
+    /*loadPage('', defaultURL);
 
     //query string
     var qsArray = window.location.href.split('?');
@@ -46,16 +46,16 @@ $(document).ready(function () {
     if (qs != '' && qsArray.length > 1) {
         $('#url input[type=text]').val(qs);
         loadPage('', qs);
-    }
+    }*/
 
     //set slidable div width
-    /*$('#frames #inner').css('width', function () {
+    $('#frames #inner').css('width', function () { // Sementa
         var width = 0;
         $('.frame').each(function () {
             width += $(this).outerWidth() + 20 
         });
         return width;
-    });*/
+    });
 
     //add event handlers for options radio buttons
     /*$('input[type=radio]').change(function () {
