@@ -49,13 +49,13 @@ $(document).ready(function () {
     }
 
     //set slidable div width
-    $('#frames #inner').css('width', function () {
+    /*$('#frames #inner').css('width', function () {
         var width = 0;
         $('.frame').each(function () {
             width += $(this).outerWidth() + 20 
         });
         return width;
-    });
+    });*/
 
     //add event handlers for options radio buttons
     /*$('input[type=radio]').change(function () {
