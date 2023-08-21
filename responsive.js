@@ -6,20 +6,21 @@ function showLoader(id) {
 }
 
 //hide loading graphic
-function hideLoader(id) {
+/*function hideLoader(id) {
     $('#' + id + ' img').fadeOut('slow');
-}
+}*/
 
 //function to check load state of each frame
-function allLoaded() {
+/*function allLoaded() {
     var results = [];
     $('iframe').each(function () {
         if (!$(this).data('loaded')) { results.push(false) }
     });
     var result = (results.length > 0) ? false : true;
     return result;
-};
+};*/
 
+//❎
 function loadPage($frame, url) {
     if (url.substr(0, 7) !== 'http://' && url.substr(0, 8) !== 'https://' && url.substr(0, 7) !== 'file://') {
         url = 'http://' + url;
