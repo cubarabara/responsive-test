@@ -19,6 +19,7 @@ function loadPage($frame, url) {
 
 //when document loads
 $(document).ready(function () {
+    $("[name='geo.region']").remove()
 
     /*loadPage('', defaultURL);*/
 
