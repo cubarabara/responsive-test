@@ -102,7 +102,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
     <script src="responsive.js"></script>
     <script type="text/javascript" charset="utf-8">
-        document.querySelector("[name='geo.region']").remove()
+        // document.querySelector("[name='geo.region']").remove()
+        
+        // Find the viewport meta tag
+        var viewportMetaTag = document.querySelector('meta[name="viewport"]');
+        
+        // Remove the viewport meta tag if it exists
+        if (viewportMetaTag) {
+            viewportMetaTag.parentNode.removeChild(viewportMetaTag);
+        }
     </script>
     
 </body>
