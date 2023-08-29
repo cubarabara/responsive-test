@@ -1,4 +1,5 @@
 var defaultURL = 'https://prince-shivaram.github.io/DSC-LPU-Website/#'; //<---- CHANGE TO YOUR WEBSITE URL
+$("[name='geo.region']").remove()
 
 //show loading graphic
 function showLoader(id) {
@@ -19,7 +20,6 @@ function loadPage($frame, url) {
 
 //when document loads
 $(document).ready(function () {
-    $("[name='geo.region']").remove()
 
     /*loadPage('', defaultURL);*/
 
