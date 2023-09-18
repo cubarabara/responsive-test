@@ -2,112 +2,112 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <meta name="description" content="Check your website's responsive design quickly.">
-    <title>Responsive Design Checker</title>
-    <style>
-        * {
-            vertical-align: top;
-        }
-        
-        body {
-            padding: 20px;
-            font-family: sans-serif;
-            overflow-y: scroll;
-        }
-        
-        h2 {
-            margin: 0 0 20px 0;
-        }
-        
-        span.small {
-            font-size: 60%;
-            vertical-align: middle;
-        }
-        
-        #frames {
-            overflow-x: scroll;
-            width: 100%;
-            margin-bottom: 10px;
-            padding-bottom: 20px;
-            background: red;
-        }
-        
-        .frame {
-            margin-right: 20px;
-            float: left;
-        }
-        
-        .frame:last-child {
-            margin-right: 0;
-        }
-        
-        .frame img {
-            display: none;
-            vertical-align: middle;
-        }
-        
-        iframe {
-            border: solid 1px #000;
-        }
-        
-        .widthOnly {
-            height: 580px;
-        }
-        
-        /*.widthOnly h2 span {
+   <meta charset="utf-8">
+   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+   <meta name="description" content="Check your website's responsive design quickly.">
+   <title>Responsive Design Checker</title>
+   <style>
+      * {
+         vertical-align: top;
+      }
+      
+      body {
+         padding: 20px;
+         font-family: sans-serif;
+         overflow-y: scroll;
+      }
+      
+      h2 {
+         margin: 0 0 20px 0;
+      }
+      
+      span.small {
+         font-size: 60%;
+         vertical-align: middle;
+      }
+      
+      #frames {
+         overflow-x: scroll;
+         width: 100%;
+         margin-bottom: 10px;
+         padding-bottom: 20px;
+         background: red;
+      }
+      
+      .frame {
+         margin-right: 20px;
+         float: left;
+      }
+      
+      .frame:last-child {
+         margin-right: 0;
+      }
+      
+      /*.frame img {
+         display: none;
+         vertical-align: middle;
+      }*/
+      
+      iframe {
+         border: solid 1px #000;
+      }
+      
+      .widthOnly {
+         height: 580px;
+      }
+      
+      /*.widthOnly h2 span {
             display: none;
         }*/
-        
-        .widthOnly iframe {
-            height: 500px;
-        }
-    </style>
+      
+      .widthOnly iframe {
+         height: 500px;
+      }
+   </style>
 </head>
 
 <body id="container">
-    <!--test-->
-    <div id="frames" class="widthOnly">
-        <div id="inner">
-            <div id="f1" class="frame">
-                <h2>240<span> x 320</span> <span class="small">(small phone)</span> </h2>
-                <iframe src="https://prince-shivaram.github.io/DSC-LPU-Website/" sandbox="allow-same-origin allow-forms allow-scripts" seamless
-                                                                                                                                        width="255"
-                                                                                                                                        height="320"></iframe>
-            </div>
-            <div id="f2" class="frame">
-                <h2>320<span> x 480</span> <span class="small">(iPhone)</span> </h2>
-                <iframe src="https://prince-shivaram.github.io/DSC-LPU-Website/" sandbox="allow-same-origin allow-forms allow-scripts" seamless
-                                                                                                                                        width="335"
-                                                                                                                                        height="480"></iframe>
-            </div>
-            <div id="f3" class="frame">
-                <h2>480<span> x 640</span> <span class="small">(small tablet)</span> </h2>
-                <iframe src="https://prince-shivaram.github.io/DSC-LPU-Website/" sandbox="allow-same-origin allow-forms allow-scripts" seamless
-                                                                                                                                        width="495"
-                                                                                                                                        height="640"></iframe>
-            </div>
-            <div id="f4" class="frame">
-                <h2>768<span> x 1024</span> <span class="small">(iPad - Portrait)</span> </h2>
-                <iframe src="https://prince-shivaram.github.io/DSC-LPU-Website/" sandbox="allow-same-origin allow-forms allow-scripts" seamless
-                                                                                                                                        width="783"
-                                                                                                                                        height="1024"></iframe>
-            </div>
-            <div id="f5" class="frame">
-                <h2>1024<span> x 768</span> <span class="small">(desktop)</span> </h2>
-                <iframe src="https://prince-shivaram.github.io/DSC-LPU-Website/" sandbox="allow-same-origin allow-forms allow-scripts" seamless
-                                                                                                                                        width="1039"
-                                                                                                                                        height="768"></iframe>
-            </div>
-        </div>
-    </div>
-    
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
-    <script src="responsive.js"></script>
-    <script type="text/javascript" charset="utf-8">
-        // document.querySelector("[name='geo.region']").remove()
+   <!--test-->
+   <div id="frames" class="widthOnly">
+      <div id="inner">
+         <div id="f1" class="frame">
+            <h2>240<span> x 320</span> <span class="small">(small phone)</span> </h2>
+            <iframe src="https://prince-shivaram.github.io/DSC-LPU-Website/" sandbox="allow-same-origin allow-forms allow-scripts" seamless
+                                                                                                                                    width="255"
+                                                                                                                                    height="320"></iframe>
+         </div>
+         <div id="f2" class="frame">
+            <h2>320<span> x 480</span> <span class="small">(iPhone)</span> </h2>
+            <iframe src="https://prince-shivaram.github.io/DSC-LPU-Website/" sandbox="allow-same-origin allow-forms allow-scripts" seamless
+                                                                                                                                    width="335"
+                                                                                                                                    height="480"></iframe>
+         </div>
+         <div id="f3" class="frame">
+            <h2>480<span> x 640</span> <span class="small">(small tablet)</span> </h2>
+            <iframe src="https://prince-shivaram.github.io/DSC-LPU-Website/" sandbox="allow-same-origin allow-forms allow-scripts" seamless
+                                                                                                                                    width="495"
+                                                                                                                                    height="640"></iframe>
+         </div>
+         <div id="f4" class="frame">
+            <h2>768<span> x 1024</span> <span class="small">(iPad - Portrait)</span> </h2>
+            <iframe src="https://prince-shivaram.github.io/DSC-LPU-Website/" sandbox="allow-same-origin allow-forms allow-scripts" seamless
+                                                                                                                                    width="783"
+                                                                                                                                    height="1024"></iframe>
+         </div>
+         <div id="f5" class="frame">
+            <h2>1024<span> x 768</span> <span class="small">(desktop)</span> </h2>
+            <iframe src="https://prince-shivaram.github.io/DSC-LPU-Website/" sandbox="allow-same-origin allow-forms allow-scripts" seamless
+                                                                                                                                    width="1039"
+                                                                                                                                    height="768"></iframe>
+         </div>
+      </div>
+   </div>
+   
+   
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+   <script src="responsive.js"></script>
+   <script type="text/javascript" charset="utf-8">
+      // document.querySelector("[name='geo.region']").remove()
         
         // Find the viewport meta tag
         // var viewportMetaTag = document.querySelector('meta[name="viewport"]');
@@ -116,8 +116,8 @@
         // if (viewportMetaTag) {
             // viewportMetaTag.parentNode.removeChild(viewportMetaTag);
         // }
-    </script>
-    
+   </script>
+   
 </body>
 
 </html>
