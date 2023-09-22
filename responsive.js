@@ -33,11 +33,11 @@ $(document).ready(function () {
    }
 
    //set slidable div width
-   /*$('#frames #inner').css('width', function () { // Sementa
+   $('#frames #inner').css('width', function () { // Sementa
       var width = 0;
       $('.frame').each(function () {
          width += $(this).outerWidth() + 20
       });
       return width;
-   });*/
+   });
 });
